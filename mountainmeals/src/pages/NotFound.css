@@ -1,0 +1,42 @@
+/* NotFound.css */
+.notfound-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f2f5; /* Light background color */
+  }
+  
+  .notfound-container h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #001529; /* Ant Design's primary color */
+  }
+  
+  .notfound-container p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #595959; /* A slightly darker gray for the text */
+  }
+  
+  .notfound-container .back-home-button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #1890ff; /* Ant Design blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notfound-container .back-home-button:hover {
+    background-color: #40a9ff; /* Lighter blue on hover */
+  }
+  
+  .notfound-container a {
+    text-decoration: none;
+  }
+  
