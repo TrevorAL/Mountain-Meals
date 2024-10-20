@@ -9,6 +9,7 @@ import './App.css';
 const App = () => (
   <Router>
     <div className="App">
+      <div className='animated-background'></div>
       <Header />
       <main>
         <Routes>

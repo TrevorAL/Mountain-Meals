@@ -3,12 +3,6 @@
   text-align: center;
 }
 
-header {
-  background-color: #4CAF50;
-  padding: 1rem;
-  color: white;
-}
-
 nav a {
   margin: 0 1rem;
   color: white;
@@ -31,3 +25,29 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* App.css */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-background {
+  background: linear-gradient(270deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+  background-size: 800% 800%;
+  animation: gradient-animation 15s ease infinite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
