@@ -1,0 +1,19 @@
+.glass-header {
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.9px);
+-webkit-backdrop-filter: blur(6.9px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 1rem auto; /* Center the header horizontally */
+    text-align: center; /* Center the content inside the header */
+    max-width :500px;
+}
+
+.navbar {
+    padding-bottom: 15px;
+    color: black;
+}
+.navbar a{
+    color: black;
+}
